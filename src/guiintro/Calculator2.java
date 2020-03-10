@@ -224,7 +224,9 @@ public class Calculator2 {
 					ResultAsString=Integer.toString(result);
 					getFeld1().setText((ResultAsString));
 					break;
+						
 				}
+				getFeld2().setText("=");
 			}
 		});
 		button_1_1_6_5.setText("=");
